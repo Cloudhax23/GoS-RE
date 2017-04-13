@@ -8,7 +8,7 @@ Callback.Add("Draw", function() Draw2() end);
 local function IsReady(slot)
 	return myHero:GetSpellData(slot).currentCd == 0 and myHero:GetSpellData(slot).level > 0
 end
-
+-- 2Lazy2Merge
 local function VectorExtendA(v,t,d)
 	return v + d * (t-v):Perpendicular2():Normalized() 
 end
